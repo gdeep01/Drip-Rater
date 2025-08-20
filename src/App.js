@@ -358,7 +358,7 @@ function Header() {
     <div style={{ textAlign: "center", marginBottom: 12 }}>
       <div className="tag"><IconSpark /> DRIPRATER</div>
       <h1 className="title">Rate My Fit</h1>
-      <p className="subtitle">Upload or snap a pic. Get a real score and actionable tips.</p>
+      <p className="subtitle">Upload or snap a pic. Get real scores and actionable tips.</p>
       {!apiKeyExists && (
         <div className="danger" style={{ marginTop: 10 }}>
           Missing API key. Set <b>REACT_APP_GEMINI_API_KEY</b> in your .env and restart.
