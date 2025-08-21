@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Analytics } from "@vercel/analytics/react"
+
 
 /* ====================== GLOBAL STYLES (no external libs) ====================== */
 const GlobalStyles = () => (
